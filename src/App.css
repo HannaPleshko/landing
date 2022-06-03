@@ -1,0 +1,50 @@
+@import url(./variables/css/color.css);
+
+@font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+        url('./fonts/Mulish/Mulish-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+        url('./fonts/Mulish/Mulish-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+        url('./fonts/Mulish/Mulish-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+        url('./fonts/Montserrat/Montserrat-Bold.ttf') format('truetype');
+}
+
+* {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--black);
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}

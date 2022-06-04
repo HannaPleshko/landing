@@ -1,0 +1,56 @@
+@import url(../../variables/css/color.css);
+@import url(../../variables/css/font.css);
+
+.section {
+    margin: auto;
+    width: 1220px;
+}
+
+.container {
+    position: relative;
+    z-index: 10;
+    padding: 100px 0 156px 0;
+
+}
+
+.oval-left {
+    position: absolute;
+    background-image: url(./assets/Side\ Shape.svg);
+    width: 288px;
+    height: 288px;
+    background-repeat: no-repeat;
+    top: 10%;
+    left: -10%;
+}
+
+.block-ul {
+    display: flex;
+    align-items: center;
+    width: 1120px;
+    height: 172px;
+    background: var(--white);
+    border: 1px solid #E7EAEB;
+    border-radius: 21px;
+    margin: auto;
+}
+
+.block-ul li {
+    list-style-type: none;
+    width: 373px;
+}
+
+.block-ul li h3 {
+    font: var(--700_40px_Montserrat);
+    text-align: center;
+    color: var(--black);
+}
+
+.block-ul li p {
+    font: var(--400_16px_Mulish);
+    text-align: center;
+    color: var(--grey);
+}
+
+.block-ul li:not(:last-child) {
+    border-right: 1px solid #E7EAEB;
+}

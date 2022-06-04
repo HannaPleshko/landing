@@ -5,7 +5,7 @@ function App() {
   const routes = Pathtest();
 
   return (
-    <div style={{ maxWidth: '1440px', margin: 'auto' }}>
+    <div>
       {routes}
     </div>
   );

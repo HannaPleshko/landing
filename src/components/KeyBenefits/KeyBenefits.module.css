@@ -1,0 +1,64 @@
+@import url(../../variables/css/color.css);
+@import url(../../variables/css/font.css);
+
+.section-key {
+    margin: auto;
+    width: 1120px;
+}
+
+.section-key h1 {
+    font: var(--700_46px_Montserrat);
+    text-align: center;
+    color: var(--black);
+}
+
+.section-info {
+    font: var(--400_20px_Mulish);
+    margin: auto;
+    width: 560px;
+    text-align: center;
+    color: var(--grey);
+    padding: 15px 0 61px 0;
+}
+
+.wrapper-item {
+    list-style-type: none;
+    background: linear-gradient(44.11deg, #99C6F20D 15.75%, #3D75BF0D 84.63%);
+    mix-blend-mode: normal;
+    border-radius: 21px;
+    height: 172px;
+}
+
+.wrapper-item:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.benefit-item {
+    padding: 39px 46px 0 46px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.benefit-item h3 {
+    font: var(--700_24px_Montserrat);
+    color: var(--black);
+}
+
+.benefit-item p {
+    font: var(--400_16px_Mulish);
+    color: var(--grey);
+}
+
+.benefit-icon {
+    background-image: url(./assets/Vector.png);
+    width: 64px;
+    height: 64px;
+    background-repeat: no-repeat;
+}
+
+.benefit-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 930px;
+}

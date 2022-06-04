@@ -1,5 +1,6 @@
 import Footer from '../../components/Footer/Footer';
 import Main from '../../components/Main/Main';
+import Benefits from '../../components/Benefits/Benefits';
 import Header from '../../components/Header/Header';
 
 const MainPage = () => {
@@ -8,7 +9,8 @@ const MainPage = () => {
     <div>
       <Header />
       <Main />
-      <Footer />
+      <Benefits />
+      {/* <Footer /> */}
     </div>
   );
 };

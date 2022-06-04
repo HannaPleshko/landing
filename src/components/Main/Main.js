@@ -11,11 +11,7 @@ const Main = () => {
           <div className={style['text-block']}>
             <h1>Начни карьеру в IT прямо сейчас.</h1>
             <p className={style['text']}>Стать востребованным IT-специалистом вместе с HSchool. </p>
-            <Link to={'*'}>
-              <div className={style['btn']}>
-                Записаться
-              </div>
-            </Link>
+            <Link to={'*'}><div className={style['btn']}>Записаться</div></Link>
             <div>
               <div className={style['']}></div>
               <p className={style['text-sm']}>Join over <span>4,000+</span> students</p>

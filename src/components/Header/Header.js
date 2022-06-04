@@ -15,7 +15,7 @@ const Header = () => {
     <header>
       <div className={style['container']}>
         <div className={style['logo']}> <Link to={'/'}>HSchool</Link></div>
-        <ul>{titles.map((item, index) => <NavItem key={index} title={item} {...item} />)}</ul>
+        <ul className={style['block-header-ul']}>{titles.map((item, index) => <NavItem key={index} title={item} {...item} />)}</ul>
         <Link to={'*'}>
           <div className={style['btn']}>
             Записаться

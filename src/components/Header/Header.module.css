@@ -1,5 +1,5 @@
 @import url(../../variables/css/color.css);
-@import url(../../variables/css/size.css);
+@import url(../../variables/css/font.css);
 
 header {
     background-color: var(--white);
@@ -23,31 +23,28 @@ header {
 }
 
 .logo a {
-    font-weight: 900;
-    font-size: 30px;
+    font: var(--900_30px_Mulish);
 }
 
 .item {
-    font-weight: 700;
-    font-size: 16px;
+    font: var(--700_16px_Mulish);
 }
 
-ul {
+.block-header-ul {
     display: flex;
     align-items: center;
 }
 
-li {
+.block-header-ul li {
     list-style-type: none;
 }
 
-li:not(:last-child) {
+.block-header-ul li:not(:last-child) {
     margin-right: 37px;
 }
 
 .btn {
-    font-weight: 700;
-    font-size: 16px;
+    font: var(--700_16px_Mulish);
     line-height: 20px;
     color: var(--white);
     background: linear-gradient(44.11deg, #8FBBE5 15.75%, #3D75BF 84.63%);

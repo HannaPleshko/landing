@@ -14,7 +14,7 @@ const Main = () => {
             <Link to={'*'}><div className={style['btn']}>Записаться</div></Link>
             <div>
               <div className={style['']}></div>
-              <p className={style['text-sm']}>Join over <span>4,000+</span> students</p>
+              <p className={style['text-sm']}>Присоединяйтесь к <span>50+ </span>студентам</p>
             </div>
           </div>
           <div className={style['video-block']}>

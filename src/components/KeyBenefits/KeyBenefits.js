@@ -3,7 +3,7 @@ import BenefitItem from './BenefitItem';
 import style from './KeyBenefits.module.css';
 
 const KeyBenefits = () => {
-    let benefits = [{
+    const benefits = [{
         h3: 'Максимум практики',
         p: 'Минимум скучной теории и максимум практики. Слушатели получают прикладные знания в процессе выполнения проектов.'
     }, {

@@ -3,14 +3,13 @@
 
 .section {
     margin: auto;
-    width: 1220px;
+    max-width: 1220px;
 }
 
 .container {
     position: relative;
     z-index: 10;
     padding: 100px 0 156px 0;
-
 }
 
 .oval-left {

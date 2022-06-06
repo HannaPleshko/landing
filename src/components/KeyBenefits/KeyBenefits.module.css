@@ -3,7 +3,7 @@
 
 .section-key {
     margin: auto;
-    width: 1120px;
+    max-width: 1120px;
 }
 
 .section-key h1 {
@@ -13,12 +13,12 @@
 }
 
 .section-info {
-    font: var(--400_20px_Mulish);
+    max-width: 560px;
     margin: auto;
-    width: 560px;
-    text-align: center;
-    color: var(--grey);
     padding: 15px 0 61px 0;
+    text-align: center;
+    font: var(--400_20px_Mulish);
+    color: var(--grey);
 }
 
 .wrapper-item {
@@ -26,7 +26,6 @@
     background: linear-gradient(44.11deg, #99C6F20D 15.75%, #3D75BF0D 84.63%);
     mix-blend-mode: normal;
     border-radius: 21px;
-    height: 172px;
 }
 
 .wrapper-item:not(:last-child) {
@@ -34,7 +33,7 @@
 }
 
 .benefit-item {
-    padding: 39px 46px 0 46px;
+    padding: 39px 46px;
     display: flex;
     justify-content: space-between;
 
@@ -43,6 +42,7 @@
 .benefit-item h3 {
     font: var(--700_24px_Montserrat);
     color: var(--black);
+    padding-bottom: 20px;
 }
 
 .benefit-item p {

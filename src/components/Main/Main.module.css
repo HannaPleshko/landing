@@ -11,16 +11,15 @@
     height: 700px;
     left: 0px;
     top: 101px;
-    background: linear-gradient(44.11deg, #99C6F2 15.75%, #3D75BF 84.63%);
+    background: linear-gradient(44.11deg, #99C6F20D 15.75%, #3D75BF0D 84.63%);
     mix-blend-mode: normal;
-    opacity: 0.05;
     border-radius: 0px 20px 20px 0px;
 }
 
 .block {
     position: relative;
     z-index: 10;
-    width: 1120px;
+    max-width: 1120px;
     height: 472px;
     display: flex;
     justify-content: space-between;

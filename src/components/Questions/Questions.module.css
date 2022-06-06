@@ -1,0 +1,53 @@
+@import url(../../variables/css/color.css);
+@import url(../../variables/css/font.css);
+
+.section-questions {
+    margin: auto;
+    max-width: 1220px;
+    padding-top: 115px;
+}
+
+.section-questions h1 {
+    font: var(--700_46px_Montserrat);
+    color: var(--black);
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-questions li {
+    list-style-type: none;
+    border: 1px solid #d8e3f2;
+    border-radius: 21px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-questions li:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.block-question h3 {
+    font: var(--700_20px_Montserrat);
+    color: var(--black);
+    margin-bottom: 20px;
+}
+
+.block-question p {
+    font: var(--400_16px_Mulish);
+    color: var(--grey);
+}
+
+.arrow-on {
+    background-image: url(./assets/Arrow_on.png);
+    width: 48px;
+    height: 48px;
+    background-repeat: no-repeat;
+}
+
+.arrow-off {
+    background-image: url(./assets/Arrow_off.png);
+    width: 48px;
+    height: 48px;
+    background-repeat: no-repeat;
+}

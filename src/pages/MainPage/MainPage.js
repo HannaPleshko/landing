@@ -1,7 +1,10 @@
-import Footer from '../../components/Footer/Footer';
 import Main from '../../components/Main/Main';
 import Benefits from '../../components/Benefits/Benefits';
 import Header from '../../components/Header/Header';
+import Founder from '../../components/Founder/Founder';
+import Questions from '../../components/Questions/Questions';
+import Feedback from '../../components/Feedback/Feedback';
+import Program from '../../components/Program/Program';
 
 const MainPage = () => {
 
@@ -10,7 +13,10 @@ const MainPage = () => {
       <Header />
       <Main />
       <Benefits />
-      {/* <Footer /> */}
+      <Founder />
+      <Program />
+      <Feedback />
+      <Questions />
     </div>
   );
 };

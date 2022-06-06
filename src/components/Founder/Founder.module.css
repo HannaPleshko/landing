@@ -1,0 +1,35 @@
+@import url(../../variables/css/color.css);
+@import url(../../variables/css/font.css);
+
+.section {
+    margin: auto;
+    max-width: 1220px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+.block-text {
+    max-width: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.block-text h1 {
+    font: var(--700_46px_Montserrat);
+    color: var(--black);
+    margin-bottom: 20px;
+}
+
+.block-text p {
+    font: var(--400_20px_Mulish);
+    color: var(--grey);
+}
+
+.img {
+    background-image: url(./assets/Instructor.png);
+    width: 419px;
+    height: 382px;
+    background-repeat: no-repeat;
+}

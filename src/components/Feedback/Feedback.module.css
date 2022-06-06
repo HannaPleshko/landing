@@ -1,0 +1,10 @@
+@import url(../../variables/css/color.css);
+@import url(../../variables/css/font.css);
+
+.section-feedback {
+    margin: auto;
+    margin-top: 150px;
+    width: 100%;
+    background: linear-gradient(44.11deg, #99c5f2d2 15.75%, #99c5f2d9 15.76%, #3d75bfd6 84.63%);
+    padding: 110px 0 120px 0;
+}
